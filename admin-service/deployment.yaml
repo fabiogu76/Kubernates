@@ -13,7 +13,7 @@ spec:
     spec:
       containers:
       - name: admin
-        image: piomin/admin
+        image: fabiog76/admin-service:1.3
         ports:
         - containerPort: 8080
 ---
